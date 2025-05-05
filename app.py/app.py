@@ -4,8 +4,8 @@ import numpy as np
 import joblib
 
 # Load model and scaler
-model = joblib.load('best_churn_model.pkl')
-scaler = joblib.load('scaler.pkl')
+model = joblib.load('app.py/best_churn_model.pkl')
+scaler = joblib.load('app.py/scaler.pkl')
 
 st.title("Customer Churn Prediction Dashboard")
 
